@@ -76,7 +76,7 @@
 <body>
 
 <header class="bg-background"> 
-  <div class="navbar container mx-auto font-sora   border-b-4 md:border-none py-4">
+  <div class="navbar w-11/12 mx-auto font-sora   border-b-4 md:border-none py-4">
 
     <div class="navbar-start">
       <img src="c1-assets/logo-header.png" alt="">
@@ -121,7 +121,7 @@
 
   <!-- banner section  -->
 
-<section class="container mx-auto font-sora mt-8">
+<section class="w-11/12 mx-auto font-sora mt-8">
 
 
 <div class="w-full h-[500px] md:h-[749px] bg-[url('./c1-assets/cat-big.png')] bg-contain bg-center  bg-no-repeat "> 
@@ -148,11 +148,11 @@
 <!-- browse By Category -->
 
 
-<section class="container mx-auto font-sora">
+<section class="w-11/12 mx-auto font-sora">
 
   <h1 class="font-adlam-display text-3xl md:text-5xl ml-5">Browse By Categories</h1>
 
-  <div class="flex flex-wrap gap-3 my-10 mx-5"> 
+  <div class="flex flex-wrap gap-3 my-10"> 
       <div class="bg-card rounded-md flex flex-1 flex-col items-center justify-center p-8 space-y-5 min-w-[175px]">
         <img src="./c1-assets/dog-cartoon.png" alt="" class="bg-white p-8 rounded-full ">
         <h1 class="font-adlam-display text-xl">Dog</h1>
@@ -195,13 +195,13 @@
 
 <section class="font-sora bg-white md:bg-[rgb(255,249,244)]">
 
-  <div class="container mx-auto py-20 px-4">
+  <div class="w-11/12 mx-auto py-20">
   <h1 class="font-adlam-display text-3xl md:text-5xl ml-5 pb-10">Trending Pet Products</h1>
 
 
   <div class="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-5">
 
-    <div class="bg-card space-y-5 pl-5 pt-8   col-span-2 md:row-span-5 lg:row-span-3 md:col-span-2 bg-[url('./c1-assets/cute-pet-small.png')] bg-con bg-right bg-no-repeat min-h-[340px]">
+    <div class="bg-card space-y-5 pl-5 pt-8   col-span-2 md:row-span-5 lg:row-span-3 md:col-span-2 bg-[url('./c1-assets/cute-pet-small.png')] bg-right bg-no-repeat min-h-[340px] rounded-lg">
 
 
       <h1 class="font-adlam-display text-3xl md:text-3xl">T-Shirt For Dogs</h1>  
@@ -344,13 +344,13 @@
 <!-- Everyday low price  -->
 
 
-<section class="font-sora container mx-auto mt-10">
+<section class="font-sora w-11/12 mx-auto mt-10">
 
   <h1 class="font-adlam-display text-3xl md:text-5xl ml-5 pb-10">Everyday low Price</h1>
 
 
-  <div class="grid grid-cols-1 md:grid-cols-3 mx-4 gap-4 my-10">
-      <div class="font-sora bg-custom bg-contain bg-right bg-no-repeat md:col-span-2 min-h-[340px] flex flex-col  md:justify-center pl-10 md:space-y-5 pt-10 md:pt-0 rounded-lg">
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-10">
+      <div class="font-sora bg-custom bg-contain bg-right bg-no-repeat md:col-span-2 min-h-[350px] md:min-h-[450px] flex flex-col  md:justify-center pl-10 md:space-y-5 pt-10 md:pt-0 rounded-lg">
 
         <p class="hidden md:block">Under Price </p>
 
@@ -366,7 +366,7 @@
 
 
 
-        <div class="bg-custom-two bg-contain bg-right bg-no-repeat min-h-[340px] pl-10 pt-10 rounded-lg">
+        <div class="bg-custom-two bg-contain bg-right bg-no-repeat min-h-[350px] md:min-h-[450px] pl-10 pt-10 rounded-lg">
           <h1 class="font-adlam-display text-3xl md:text-3xl">T-Shirt For Dogs</h1>  
           
     
@@ -390,7 +390,79 @@
 </main>
 
 
-<footer>
+<footer class="font-sora bg-card mt-72">
+
+  <footer class="w-11/12 mx-auto footer bg-card p-10 relative ">
+
+
+
+    
+ 
+     <div class="hero bg-background absolute -top-48 rounded-lg   mx-auto">
+      <div class="hero-content flex-col lg:flex-row gap-11 ">
+        <img
+          src="./c1-assets/cute-pet-mid.png"
+          class=" bg-transparent" />
+        <div>
+
+          <div class="flex flex-col items-center md:items-start">
+          <h1 class="text-3xl font-bold ">Get Pawsome News!</h1>
+          <p class="py-6">
+            Exclusive training tips, ticks, product deals and more.
+          </p>
+
+          <input type="text" placeholder="Enter email...." class="input  w-full max-w-xs my-4" /> <br>
+          <button class="btn bg-button">Subscribe</button>
+
+        </div>
+        </div>
+      </div>
+    </div>
+  
+
+  
+
+
+    <div class="container min-h-[850px] lg:min-h-[500px] flex flex-col md:flex-row items-start md:items-end justify-end md:justify-between pb-10 space-y-6">
+    <nav class="space-y-2">
+
+      <div class="flex items-center gap-3">
+        <img src="./c1-assets/logo-footer.png" alt="">
+        <h1 class="text-2xl"> Browse Pets </h1>
+
+      </div>
+
+      <p class="text-sm">Discovering a world of treats, toys, and <br> essentials handpiked for your furry friends</p>
+      
+    </nav>
+    <nav class="flex flex-col gap-3">
+      
+      <a class="link link-hover">Find a pet</a>
+      <a class="link link-hover">Breeds</a>
+      <a class="link link-hover">Contact Us</a>
+      
+    </nav>
+    <nav class="md:mt-10">
+      <h6 class="footer-title">Follow Us</h6>
+      <div class="flex gap-5 ">
+        <a>
+          <i class="fa-brands fa-facebook text-xl"></i>
+        </a>
+        <a>
+          <i class="fa-brands fa-instagram text-xl"></i>
+        </a>
+        <a>
+          <i class="fa-brands fa-linkedin text-xl"></i>
+        </a>
+
+        <a>
+          <i class="fa-brands fa-youtube text-xl"></i>
+        </a>
+      </div>
+    </nav>
+
+  </div>
+  </footer> 
 
 
 </footer>
